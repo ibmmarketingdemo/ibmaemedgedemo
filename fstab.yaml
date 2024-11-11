@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p9198-e332504.adobeaemcloud.com/bin/franklin.delivery/ibmmarketingdemo/ibm-aem-edge-demo/main"
+    url: "https://author-p9198-e332504.adobeaemcloud.com/bin/franklin.delivery/ibmmarketingdemo/ibmaemedgedemo/main"
     type: "markup"
     suffix: ".html"
