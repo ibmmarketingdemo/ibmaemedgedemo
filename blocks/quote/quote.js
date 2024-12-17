@@ -1,8 +1,11 @@
 export default function decorate(block) {
   const [quoteWrapper] = block.children;
 
-  const blockquote = document.createElement('blockquote');
-  blockquote.textContent = quoteWrapper.textContent.trim();
-  quoteWrapper.replaceChildren(blockquote);
+  if (!quoteWrapper) return;
 
+  const blockquote = document.createElement('blockquote');
+  blockquote.textContent = (quoteWrapper.textContent || '').trim();
+
+  quoteWrapper.innerHTML = '';
+  quoteWrapper.appendChild(blockquote);
 }
