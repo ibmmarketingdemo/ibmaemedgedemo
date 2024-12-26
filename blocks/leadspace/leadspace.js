@@ -28,7 +28,7 @@ export default function decorate(block) {
   }
 
   // Process the image row
-  const imageRow = rows[2];
+  /* const imageRow = rows[2];
   if (imageRow) {
     const picture = imageRow.querySelector('picture');
     if (picture) {
@@ -51,7 +51,7 @@ export default function decorate(block) {
 
       leadspace.append(bgMedia);
     }
-  }
+  } */
 
   // Process the button rows
   const buttonGroup = document.createElement('c4d-button-group');
