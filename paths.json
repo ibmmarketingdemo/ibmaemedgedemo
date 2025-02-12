@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/IBM-Edge-Demo/:/",
+    "/content/IBM-Edge-Demo/*:/",
     "/content/IBM-Edge-Demo/configuration:/.helix/config.json",
     "/content/IBM-Edge-Demo/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/IBM-Edge-Demo/"
+    "/content/IBM-Edge-Demo/*"
   ]
 }
